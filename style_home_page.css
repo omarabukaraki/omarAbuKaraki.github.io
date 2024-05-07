@@ -175,7 +175,8 @@ html{
       
       .pComponent p, .pComponent h3{
         text-align: center;
-        margin: 0;
+        margin: 10px;
+
       }
       
       footer{
@@ -191,6 +192,47 @@ html{
       
       
       @media (max-width: 800px) {
+
+       
+        .topNav {
+        background-color: #f2f2f2;
+        padding: 0 50px;
+        overflow: auto;
+      }
+      
+      
+      .title {
+        float: none;
+        margin: 20px;
+        color: #3a44a0;
+        font-size: 26px;
+      }
+      
+      
+      .navList {
+        list-style-type: none;
+        display: inline;
+        padding: 0%;
+        justify-content: center;
+        transform: rotate(180deg);
+      }
+      
+      .navList li {
+        float: right;
+        padding: 22px;
+        transform: rotate(-180deg);
+      }
+      
+      .navList li a {
+        font-size: 18px;
+        color: #3a44a0;
+        text-decoration: none;
+      }
+      
+      .navList li a:hover {
+        color: black;
+      }
+      
         .navList li {
           float: none;
           padding: 22px;
@@ -222,7 +264,7 @@ html{
         flex-direction: row;
       }
       
-      .txtDiv h3, .txtDiv h1, .txtDiv p ,.aboutUs{
+      .txtDiv h3, .txtDiv h1, .txtDiv p ,.aboutUs , p,h1,h3{
         font-size: 15px;
         margin: 0;
       }
