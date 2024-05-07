@@ -1,0 +1,249 @@
+html{
+        scroll-behavior: smooth;
+      }
+      body {
+        margin: 0;
+        /* font-family: cursive; */
+      }
+      
+      
+      .topNav {
+        background-color: #f2f2f2;
+        padding: 0 50px;
+        overflow: auto;
+      }
+      
+      
+      .title {
+        float: left;
+        margin: 20px;
+        color: #3a44a0;
+        font-size: 26px;
+      }
+      
+      
+      .navList {
+        list-style-type: none;
+        display: inline;
+        
+      }
+      
+      .navList li {
+        float: right;
+        padding: 22px;
+      }
+      
+      .navList li a {
+        font-size: 18px;
+        color: #3a44a0;
+        text-decoration: none;
+      }
+      
+      .navList li a:hover {
+        color: black;
+      }
+      
+      .bodyListOne {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      
+      
+      
+      .bodyListOne li {
+        list-style-type: none;
+      }
+      
+      .bodyListOne li div {
+        text-align: center;
+      }
+      
+      
+      .imgDiv {
+        text-align: center;
+      
+      }
+      
+      .imgDiv img {
+        border: 5px solid #3a44a0;
+        margin: 32px;
+        width: 50%;
+        border-radius: 500px;
+      }
+      
+      
+      .txtDiv {
+        font-size: 22px;
+        max-width: 70%;
+        color: #3a44a0;
+        padding-top: 9%;
+        padding-left: 15%;
+      
+      }
+      
+      .txtDiv h3, .txtDiv h1, .txtDiv p {
+        margin: 0;
+      }
+      
+      
+      .formData {
+        color: #3a44a0;
+        margin: 50px auto;
+        text-align: center;
+      }
+      
+      
+      .formData input {
+        font-size: 20px;
+        margin: 16px;
+        padding: 8px;
+        width: 50%;
+        height: 40px;
+        border-radius: 8px;
+        border: none;
+        background-color: #f2f2f2;
+      }
+      
+      
+      .aboutUs {
+        padding: 16px;
+        background-color: #f2f2f2;
+        color: #3a44a0;
+        text-align: center;
+      }
+      
+      #bodyListId{
+        background-color: #f2f2f2;
+      }
+      
+      .pPadding{
+        padding-bottom: 30px;
+      }
+      
+      .articles{
+        margin: 16px;
+        margin-top: 60px;
+      }
+      
+      .articles h1{
+       
+        color: #3a44a0;
+        text-align: center;
+      }
+      
+      .articlesSection{
+        display: flex; 
+        flex-direction: row;
+        
+      }
+      
+      .pComponent{
+        color: #000;
+        text-decoration: none;
+        border-radius: 8px;
+        background-color: #f2f2f2; 
+        width: 33%; 
+        height: 320px;
+        margin: 16px 8px;
+        padding: 10px;
+        box-shadow: 1px 1px 10px #959595;/*horizantal , vertical , hue , color*/
+      }
+      .pComponent:hover{
+        color: aliceblue;
+       background-color: #3a44a0; 
+       box-shadow: 1px 1px 10px #3a44a0;
+      }
+      
+      
+      .pComponent img{
+        width: 100%;
+        height: 80%;
+        border-radius: 8px;
+        object-fit:cover;
+      }
+      
+      .pComponent div{
+        height: 320px;
+      }
+      
+      .pComponent p, .pComponent h3{
+        text-align: center;
+        margin: 0;
+      }
+      
+      footer{
+        padding: 16px;
+        text-align: center;
+        background-color: #000;
+      }
+      
+      footer a{
+        text-decoration: none;
+        color: aliceblue;
+      }
+      
+      
+      @media (max-width: 800px) {
+        .navList li {
+          float: none;
+          padding: 22px;
+        }
+        
+      
+        .bodyListOne{
+          display: flex;
+          flex-direction: column;
+        }
+      
+        .topNav {
+          background-color: #f2f2f2;
+          padding: 0 50px;
+          overflow: auto;
+          display: flex;
+          flex-direction: column;
+        }
+      
+        .title {
+          text-align: center;
+        }
+        
+        .navList {
+        text-align: center;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+      }
+      
+      .txtDiv h3, .txtDiv h1, .txtDiv p ,.aboutUs{
+        font-size: 15px;
+        margin: 0;
+      }
+      
+      .articlesSection{
+        display: flex; 
+        flex-direction: column;
+        padding: 16px;
+        
+      }
+      .pComponent{
+        border-radius: 8px;
+        background-color: #f2f2f2;
+        width: 96%; 
+        height: 320px;
+        margin: 16px 8px;
+        padding: 10px;
+        padding: 2% ;
+        margin: 8px 0px;
+      }
+      .pComponent img{
+        width: 100%;
+        height: 80%;
+        border-radius: 8px;
+        object-fit:cover;
+        
+      }
+      
+      }
+      
+      
